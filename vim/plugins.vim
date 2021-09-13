@@ -1,13 +1,22 @@
 "Plug initialization
 call plug#begin('~/.vim/plugged')
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+
+" syntax
+Plug 'sheerun/vim-polyglot'
+
+" status bar
+Plug 'maximbaz/lightline-ale'
+Plug 'itchyny/lightline.vim'
+
+" tree
+Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-fugitive'
-Plug 'leafgarland/typescript-vim'
 Plug 'ctrlpvim/ctrlp.vim'
-Plug 'preservim/nerdtree'
+
+" theme
+Plug 'morhetz/gruvbox'
+
 Plug 'christoomey/vim-tmux-navigator'
-" Plug 'altercation/vim-colors-solarized'
 
 " Coc server
 Plug 'neoclide/coc.nvim', {'branch': 'release'}

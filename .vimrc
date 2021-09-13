@@ -24,8 +24,10 @@ nmap <Leader>q :q<CR>
 " Plugins
 so ~/vim/plugins.vim
 
-let g:airline_theme='molokai'
-let g:airline_powerline_fonts = 1
+colorscheme gruvbox
+let g:gruvbox_contrast_dark = "hard"
+highlight Normal ctermbg=NONE
+set noshowmode
 
 let NERDTreeQuitOnOpen=1
 let NERDTreeShowHidden=1
