@@ -16,6 +16,9 @@ Plug 'ctrlpvim/ctrlp.vim'
 " theme
 Plug 'morhetz/gruvbox'
 
+" typing
+Plug 'jiangmiao/auto-pairs'
+
 Plug 'christoomey/vim-tmux-navigator'
 
 " Coc server
