@@ -22,7 +22,7 @@ nmap <Leader>W :w<CR>
 nmap <Leader>q :q<CR>
 
 " Plugins
-so ~/vim/plugins.vim
+so ~/.my-configs/vim/plugins.vim
 
 colorscheme gruvbox
 let g:gruvbox_contrast_dark = "hard"
@@ -34,4 +34,4 @@ let NERDTreeShowHidden=1
 nmap <Leader>nt :NERDTreeFind<CR>
 nmap <Leader>nti :NERDTreeToggle<CR>
 
-so ~/vim/coc.vim
+so ~/.my-configs/vim/coc.vim
