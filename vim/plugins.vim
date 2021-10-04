@@ -20,7 +20,10 @@ Plug 'morhetz/gruvbox'
 Plug 'jiangmiao/auto-pairs'
 
 Plug 'christoomey/vim-tmux-navigator'
+Plug 'pangloss/vim-javascript'
+Plug 'airblade/vim-gitgutter'
 
 " Coc server
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'kevinoid/vim-jsonc'
 call plug#end()

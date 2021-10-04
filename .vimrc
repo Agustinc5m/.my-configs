@@ -32,6 +32,20 @@ set noshowmode
 let NERDTreeQuitOnOpen=1
 let NERDTreeShowHidden=1
 nmap <Leader>nt :NERDTreeFind<CR>
-nmap <Leader>nti :NERDTreeToggle<CR>
+nmap <Leader>ni :NERDTreeToggle<CR>
+
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
+set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe  " Windows
+
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git|dist'
+
+let g:gitgutter_highlight_lines = 0
+let g:gitgutter_highlight_linenrs = 1
+
+nmap <Leader>nj :GitGutterNextHunk<CR>
+nmap <Leader>nk :GitGutterPrevHunk<CR>
+
+
+nmap <Leader>ght :GitGutterLineHighlightsToggle<CR>
 
 so ~/.my-configs/vim/coc.vim
