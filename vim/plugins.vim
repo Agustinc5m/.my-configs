@@ -8,6 +8,9 @@ Plug 'sheerun/vim-polyglot'
 Plug 'maximbaz/lightline-ale'
 Plug 'itchyny/lightline.vim'
 
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
 " tree
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-fugitive'

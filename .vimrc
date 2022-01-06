@@ -24,6 +24,9 @@ nmap <Leader>q :q<CR>
 " Plugins
 so ~/.my-configs/vim/plugins.vim
 
+let g:airline_theme='solarized-dark'
+let g:airline#extensions#tabline#enabled = 1
+
 colorscheme gruvbox
 let g:gruvbox_contrast_dark = "hard"
 highlight Normal ctermbg=NONE
